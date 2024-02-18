@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: aqua;
+    max-width: 70rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /*primeira e segunda coluna*/
+    gap: 2rem;
+    align-items: flex-start;
+}
